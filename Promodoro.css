@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Anton|KoHo);
+body{
+  background-color: hsl(150, 40%, 50%);
+}
+.promodoro{
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin: 50px;
+  font-size: 35px;
+}
+#box, .title{
+  font-family: 'Koho';
+}
+#box{
+  display: flex;
+  justify-content: space-around;
+}
+.buttonsGroup{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#breakBlock{
+  display: flex;
+  flex-direction: column;
+}
+#butBreak{
+  display: flex;
+  justify-content: center;
+}
+#sessionBlock{
+  display: flex;
+  flex-direction: column;
+ 
+}
+#butSession{
+  display: flex;
+  justify-content: center;
+}
+#session-label{
+ font-size: 30px;
+  margin-bottom: 30px;
+}
+#break-label{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.clockTimer{
+  font-size: 25px;
+  padding-top: 30px;;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 150px;
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 6px hsl(300, 30%, 20%);
+  background-color: hsl(350, 70%, 75%);
+}
+#session-length{
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+}
+#break-length{
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+}
